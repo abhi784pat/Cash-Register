@@ -17,11 +17,12 @@ a {
 body {
     font-family: "Crimson Pro";
     min-width: 100vw;
-    background-image: url(/images/Cash-Register.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(/images/Cash-Register.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+
 
 
 }
@@ -108,4 +109,29 @@ td {
     border-radius: 0.5rem;
     width: 100%;
     max-width: 300px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+    font-size: x-large;
+    text-align: center;
+}
+
+.footer-list {
+    margin: 1rem;
+}
+
+a,
+img,
+li {
+    display: inline;
+}
+
+img {
+    width: 110px;
+    padding: 0.4rem;
 }
