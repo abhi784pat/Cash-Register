@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --primary-color: #0bcf3c;
+}
+
+body {
+    font-family: "Crimson Pro";
+    min-width: 100vw;
+    background-image: url(/images/Cash-Register.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+
+}
+
+.container {
+    margin: 5rem 8rem;
+    text-align: center;
+}
+
+.des {
+    font-size: larger;
+    font-weight: bold;
+    margin: 1rem;
+    color: #fff;
+}
+
+#check {
+    background: lawngreen;
+    border: none;
+    margin: auto;
+    border-radius: 1rem;
+    display: block;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    padding: 0.5rem 0.8rem;
+    color: white;
+    font-family: inherit;
+
+}
+
+#error {
+    display: block;
+    font-size: larger;
+    margin: auto;
+    color: #fff
+}
+
+.heading {
+    color: var(--primary-color);
+}
+
+th,
+td {
+    border: 2px solid var(--primary-color);
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem;
+    color: #fff;
+}
+
+.change-table {
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    /**The border-collapse CSS property sets whether cells inside a <table> have shared or separate borders.**/
+    margin: auto;
+}
+
+.input-label {
+    display: block;
+    margin: auto;
+    font-size: large;
+    font-family: inherit;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.change-table caption {
+    margin: auto;
+    font-size: large;
+    font-weight: bold;
+    font-family: inherit;
+    color: #fff;
+}
+
+.input {
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1.5rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 300px;
+}
