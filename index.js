@@ -6,7 +6,7 @@ const noofnotes=document.querySelectorAll(".change")
 
 const availableNotes=[2000,500,100,20,10,5,1];
 checkbutton.addEventListener('click',function checkReaminigAmount(){
-    //hideMessage() 
+    hideMessage() 
     if(billamount.value>0)
     {
     //  if(cashgiven.value===billamount.value)
@@ -41,9 +41,9 @@ function calChange(amountleft)
         noofnotes[i].innerText=noofnotesremain;
     }
 }
-// function hideMessage() {
-//     message.style.display = "none";
-//   }
+ function hideMessage() {
+     message.style.display = "none";
+  }
 function ShowMessage(msg)
 {
     message.style.display="block"
