@@ -1,7 +1,7 @@
 # mark 10 - Cash Register
 Cash Register is an app that will tell you the change to be returned as well as the number of notes to be returned. It is made with vanilla JS.
 
-# Live Project 
+# Live Project -https://cashregister-1.netlify.app/
 # How to Use
 Enter your bill Amount and Cash Given
 
